@@ -31,6 +31,7 @@ line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
     padding: 15px 30px 15px 30px;
+    cursor: pointer;
 }
 
 /* Banner-section */
@@ -79,3 +80,139 @@ right: -157.37%;
 top: 20%;
 bottom: -2.3%;
 }
+
+
+/* vision-section */
+.vision{
+    padding-top: 75px;
+}
+.vision-content h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 24px;
+}
+.vision-content p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 400;
+
+letter-spacing: 0%;
+text-align: left;
+}
+.vision-cards{
+    margin-top: 32px;
+}
+/* .card{
+    background-color: red;
+} */
+.vision-cards{
+    display: flex;
+    gap: 24px;
+}
+.card{
+    padding: 32px;
+    width: 410.67px;
+height: 325px;
+}
+.card img{
+    padding-bottom: 23px;
+}
+.card h4{
+    padding-bottom: 12px;
+}
+.card p{
+    padding-bottom: 24px;
+}
+.card-1{
+    box-sizing: border-box;
+border-radius: 16px;
+
+background: rgba(3, 3, 3, 0.2);
+}
+.card-2{
+    box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(198, 228, 214);
+}
+.card-3{
+    box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(247, 235, 207);
+}
+
+.btn{
+
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+cursor: pointer;
+padding: 11px 20px 11px 20px;
+
+}
+.btn-1{
+    background: rgb(84, 144, 245);
+}
+.btn-2{
+    border-radius: 8px;
+
+background: rgb(9, 161, 92);
+}
+.btn-3{
+    border-radius: 8px;
+
+background: rgb(255, 194, 57);
+}
+
+/* vision Quota DR.Yunus sir */
+.quota{
+    margin-top: 32px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+padding: 48px 24px;
+color: rgba(14, 14, 14, 0.8);
+background-image: url("./assets/quote-bg.png");
+background-repeat: no-repeat;
+background-position: 2% 20%;
+justify-content: center;
+align-items: center;
+
+}
+.quota h4{
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.quota p{
+    color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+
+
