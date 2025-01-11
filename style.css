@@ -212,7 +212,216 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 
+
 }
+/* Opinion matter section */
+.opinion{
+    margin-top: 70px;
+}
+.opinion h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 24px;
+}
+.container {
+    background-color: white;
+    width: 98%;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    background-color: #e6f7ee;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+  }
+  
+  tbody td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+    font-size: 16px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Dropdown Styling */
+  select {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #e6f7ee;
+    color: #333;
+    cursor: pointer;
+  }
+
+  /* News section */
+  .recent-news{
+    margin-top: 70px;
+  }
+  .recent-news h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 24px;
+
+  }
+  .recent-news p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px;
+  }
+
+  /* //Recent news section */
+  .news{
+   
+    border-radius: 24px;
+background: rgb(255, 255, 255);
+display: flex;
+gap: 32px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+padding: 48px;
+    margin-bottom: 24px;
+  }
+  .news h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .news span{
+    margin-left: 12px;
+  }
+  .news img{
+    border-radius: 24px;
+  }
+  .news p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+  }
+  .news-btn{
+    border-radius: 8px;
+    padding: 13px 26px 13px 26px;
+background: rgb(0, 106, 80);
+cursor: pointer;
+  }
+
+
+  /* Donate section */
+  .donate{
+    margin-top: 50px;
+  }
+  .donate h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+    margin-bottom: 24px;
+  }
+  .donate p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 32px;
+  }
+  .donate button{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  .donate-cards{
+    display: flex;
+    justify-content: space-around;
+  }
+  .donate-card-1 button:hover{
+   background-color: aqua;
+   color: red;
+  }
+  .donate-card-2 button:hover{
+    background-color: salmon;
+    color: black;
+   }
+   .donate-card-3 button:hover{
+    background-color: green;
+    color: blueviolet;
+   }
+   .donate-card-4 button:hover{
+    background-color: black;
+    color: white;
+   }
+  .donate-card-2 button{
+    background: rgb(198, 228, 214);
+  }
+  /* .other-donate input{
+   margin: 0px 124px;
+  } */
+  input{
+    margin: 32px 124px;
+    color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+padding: 20px 40px 20px 40px;
+width: 80%;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+  }
+
+
+  
+
+
+
+
+  
 
 
 
